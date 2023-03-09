@@ -5,7 +5,7 @@ Add reviews and ratings functionalities to your dango app.
 ## Installation
 
 ```shell
-pip install djangoreviews
+pip install djreviews
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Extending functionality in models
 
 ```python
 from django.db import models
-from djangoreviews.models import BaseReviewModel, BaseReviewedModel
+from djreviews.models import BaseReviewModel, BaseReviewedModel
 
 
 class ProductReview(BaseReviewModel):

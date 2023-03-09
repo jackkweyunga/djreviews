@@ -1,6 +1,6 @@
 from django.contrib.contenttypes.fields import GenericRelation
 from django.db import models
-from djangoreviews.models import BaseReviewModel, BaseReviewedModel
+from djreviews.models import BaseReviewModel, BaseReviewedModel
 
 
 # Create your models here.

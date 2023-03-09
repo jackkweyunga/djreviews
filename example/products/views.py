@@ -1,9 +1,9 @@
 from django.contrib import messages
 from django.urls import reverse_lazy
 from django.views import generic, View
-from django.shortcuts import render, redirect
+from django.shortcuts import redirect
 
-from .models import Product, ProductReview, Customer
+from .models import Product, Customer
 
 
 # Create your views here.
