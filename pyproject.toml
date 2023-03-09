@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "dj-reviews"
+authors = [
+    {name = "Jack Kweyunga", email = "jackkweyunga@atomatiki.tech"},
+]
+description = "Adding Reviews to your django app."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["django reviews"]
+license = {text = "MIT"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+]
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "djangoreviews.VERSION"}

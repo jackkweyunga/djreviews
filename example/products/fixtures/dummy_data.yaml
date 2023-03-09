@@ -1,0 +1,22 @@
+- model: products.product
+  pk: 1
+  fields:
+    name: Product 1
+    description: Sample description for product 1
+
+- model: products.product
+  pk: 2
+  fields:
+    name: Product 2
+    description: Sample description for product 2
+
+
+- model: products.customer
+  pk: 1
+  fields:
+    name: Customer 1
+
+- model: products.customer
+  pk: 2
+  fields:
+    name: Customer 2
